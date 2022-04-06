@@ -40,23 +40,3 @@ for file in dir_files: # look at every file in the current directory
 
 		merger.write(file + '-ocr-combined.pdf')
 		merger.close()
-  
-print()  
-  
-  
-  
-# import os
-# import pdfplumber
-# import time
-
-# start=time.time()
-
-# processing = open("processing.txt","w")
-# with pdfplumber.open('invoice-ocr-combined.pdf') as pdf:
-    
-    
-#     for page in pdf.pages:
-#         numpage=page.page_number
-#         txt=page.extract_text()
-#         processing.write(txt)
-#         print(txt)  
