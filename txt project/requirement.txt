@@ -1,0 +1,5 @@
+
+https://tesseract-ocr.github.io/tessdoc/Home.html#binaries
+https://imagemagick.org/script/download.php
+https://ghostscript.com/releases/gsdnld.html
+
