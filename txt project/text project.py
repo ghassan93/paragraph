@@ -4,7 +4,7 @@ import pdfplumber
 
 # convert pdf to output file as processing.text
 processing = open("processing.txt","w")
-with pdfplumber.open('q.pdf') as pdf:
+with pdfplumber.open('invoice-ocr-combined.pdf') as pdf:
     for page in pdf.pages:
         numpage=page.page_number
         txt=page.extract_text()
