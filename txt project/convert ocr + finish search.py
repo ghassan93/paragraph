@@ -89,10 +89,13 @@ for file in dir_files:
 
 # remove processing.text
 import os
+import shutil
 if os.path.exists("processing.txt"):
   os.remove("processing.txt")
 else:
   print("The file does not exist")
   
 
+#remove image folder converting
+shutil.rmtree(folder)  
 		
